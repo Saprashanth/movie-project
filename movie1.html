@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootStap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- optional javasript -->
+    <!--JQuery first, then popper.js, then bootstrap js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "PT Sans", sans-serif;
+
+
+        }
+
+        .mytitle {
+            width: 100%;
+            height: 250px;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://wallpapers.com/images/hd/dark-synthwave-art-275qfnwxbpk6tjpf.jpg');
+            background-position: center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .mytitle>button {
+            width: 200px;
+            height: 50px;
+            background-color: transparent;
+            color: white;
+            border-radius: 50px;
+            border: 1px solid white;
+            margin-top: 10px;
+
+        }
+
+        .mytitle>button:hover {
+            border: 2px solid white;
+        }
+        .mycards{
+            margin: 20px auto 0px auto;
+            width: 95%;
+            max-width: 1200px;
+        }
+        .mycomment{
+            color:gray;
+        }
+    </style>
+    <title>Coding_practice</title>
+</head>
+
+<body>
+    <div class="mytitle">
+        <h1>My Fevorite Movies</h1>
+        <button>Save a new Movie</button>
+    </div>
+
+    <div class="mycards">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOWY4MmFiY2QtMzE1YS00NTg1LWIwOTQtYTI4ZGUzNWIxNTVmXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <center><h5 class="card-title" style="color: blue;">THE GRAY MAN</h5></center>
+                        <p class="card-text">When the CIA's most skilled operative, whose true identity is known to none, accidentally uncovers dark agency secrets, a psychopathic former colleague puts a bounty on his head, setting off a global manhunt by international assassins.
+                        </p>
+                        <p>⭐⭐⭐</p>
+                        <p class="mycomment">this is a fake comment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <center><h5 class="card-title" style="color:blue;",>AVENGERS</h5></center>
+                        <p class="card-text">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+                        </p>
+                        <p>⭐⭐⭐</p>
+                        <p class="mycomment">this is a fake comment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <center><h5 class="card-title" style="color: blue;">OPPENHEIMER</h5></center>
+                        <p class="card-text">The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb                             .
+                        
+                        
+                        </p>
+                        <p>⭐⭐⭐</p>
+                        <p class="mycomment">this is a fake comment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <center><h5 class="card-title" style="color: blue;">BLACK ADAM</h5></center>
+                        <p class="card-text">Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods--and imprisoned just as quickly--Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.
+                        </p>
+                        <p>⭐⭐⭐</p>
+                        <p class="mycomment">this is a fake comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
